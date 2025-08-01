@@ -1,0 +1,21 @@
+server:
+    port: 8080
+
+spring:
+    data:
+        mongodb:
+            database: Product
+            host: localhost
+            port: 27017
+
+jwt:
+    secret: cdrrb0tjlIObQA9nH1BJ50aZz1L9clF11BYmjwxC7Od1znzsLn9Y0gkURB5RnHiy0Eih98Uj389I7B0vXGknaeQuXYZJZ2NJj6dO
+    expirationSec: 3600
+
+admin:
+    email: admin@email.test
+
+springdoc:
+    swagger-ui:
+        tags-sorter: alpha
+        operations-sorter: method
